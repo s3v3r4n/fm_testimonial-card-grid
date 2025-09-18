@@ -83,7 +83,16 @@ body {
     z-index: 2;
 }
 
-.card-1 {background-color: var(--purple500); grid-area: card1;}
+
+
+.card-1 {
+    background-color: var(--purple500);
+    grid-area: card1;
+    background-image: url(assets/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+
+}
 .card-2 {background-color: var(--grey500); grid-area: card2;}
 .card-3 {background-color: var(--white); color: var(--black); grid-area: card3;}
 .card-4 {background-color: var(--dark-blue); grid-area: card4;}
